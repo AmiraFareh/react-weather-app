@@ -14,7 +14,7 @@ export default function WeatherInfo(props){
                     <div className="row">
                     <div className="col-6">
                     <div className="clearfix">
-                    <img src="https://assets.msn.com/weathermapdata/1/static/weather/Icons/taskbar_v10/Condition_Card/HeavyDrizzle.svg" alt="icon" className="float-left"/>
+                    <img src= {props.data.iconUrl}/>
                     <span className="float-left">
                     <span className="current-temp">{props.data.temperature}</span>
                     <span className="unit">°C</span>
