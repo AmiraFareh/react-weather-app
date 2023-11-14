@@ -42,7 +42,7 @@ export default function Weather(){
                     <div className="col-6 weather-description">
                         Rain
                         <div className="feels-like">
-                            Feels like 18°C
+                            Feels like 18<span className="feels-like-unit">°C</span>
                         </div>
                         
                     </div>

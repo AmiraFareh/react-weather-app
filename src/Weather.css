@@ -36,6 +36,11 @@ padding: 40px;
     
 }
 
+.unit{
+    position: relative;
+    top: -24px;
+}
+
 
 
 .weather-description{
@@ -52,6 +57,11 @@ padding: 40px;
     margin-right: 12px;
 }
 
+.feels-like-unit{
+    position: relative;
+    top: -4px;
+    font-size: 10px;
+}
 .wind-label, .humidity-label, .visibility-label, .pressure-label, .precipitation-label{
     font-size: 13px;
     font-weight: normal;
