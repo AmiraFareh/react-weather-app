@@ -1,3 +1,65 @@
 .Weather{
 border: 1px solid #dadde1 ;
+border-radius: 10px;
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(89,89,201,1) 35%, rgba(0,212,255,1) 100%);
+color: #FFFFFF;
+padding: 40px;
+}
+
+.Weather h1{
+    
+    line-height: 24px;
+    font-size: 18px;
+}
+
+.Weather h2{
+    height: 22px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.Weather h3{
+    height: 16px;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 10px;
+}
+
+.current-temp {
+    margin-left: 8px;
+    font-size: 48px;
+    line-height: 64px;
+    
+}
+
+
+
+.weather-description{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    padding-left: 17px;
+}
+
+.feels-like{
+    font-size: 14px;
+    line-height: 16px;
+    opacity: 0.8;
+    margin-right: 12px;
+}
+
+.wind-label, .humidity-label, .visibility-label, .pressure-label, .precipitation-label{
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 16px;
+}
+
+.wind-speed, .humidity, .visibility, .pressure, .precipitation{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: normal;
 }
