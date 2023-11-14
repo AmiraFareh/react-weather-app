@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import "./Weather.css"
 import axios from "axios";
+import FormattedDate from "./FormattedDate";
 
 export default function Weather(){
    
@@ -20,7 +21,7 @@ function handleResponse(response){
         feelsLike: Math.round(response.data.main.feels_like),
         country: response.data.sys.country,
         description: response.data.weather[0].description,
-        date: "date"
+        date: new Date(response.data.dt * 1000)
       
 
 
@@ -50,7 +51,7 @@ if(weatherData.ready){
             <div className="wrap">
                 <h2>Current weather </h2>
                 <h3 className="mb-4">
-                {weatherData.date}
+                <FormattedDate date = {weatherData.date}/>
                 </h3>
                 <div className="grid mb-5">
                     <div className="row">
