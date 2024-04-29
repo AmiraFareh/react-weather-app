@@ -35,16 +35,18 @@ padding: 40px;
 
 .Weather .current-temp {
     margin-left: 15px;
-    font-size: 52px;
+    font-size: 92px;
     line-height: 64px;
     position: relative;
-    top: -20px;
+    top: -30px;
   
 }
 
 .Weather .unit{
     position: relative;
-    top: -46px;
+    top: -86px;
+    font-size: 20px;
+    
 }
 
 
