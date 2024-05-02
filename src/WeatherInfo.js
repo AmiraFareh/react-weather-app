@@ -16,7 +16,7 @@ export default function WeatherInfo(props) {
           Updated:
           <FormattedDate date={props.data.date} />
         </h3>
-        <div className="grid mb-5">
+        <div className="grid">
           <div className="row">
             <div className="col-6">
               <div className="clearfix">

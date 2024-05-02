@@ -81,3 +81,45 @@ padding: 40px;
     line-height: 22px;
     font-weight: normal;
 }
+
+div.grid{
+   display: grid;
+    margin-bottom: 20px;
+}
+
+@media(max-width: 767px) {
+    .Weather .current-temp{
+        position: relative;
+        right: -135px;
+        top: -85px;
+     
+
+}
+.Weather .unit{
+    position: relative;
+   
+    right: -135px;
+    top: -135px; 
+     
+    
+}
+.weather-description{
+    padding: 0px;
+    display: none;
+   
+}
+.feels-like{
+font-size: 10px;
+display: none;
+}
+.feels-like-unit{
+    position: relative;
+    top: -2px;
+    font-size: 7px;
+    display: none;
+}
+div.grid{
+    margin-bottom: 0px;
+}
+
+}
